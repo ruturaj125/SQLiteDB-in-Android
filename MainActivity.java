@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         catch (Exception e){
-            displayMsg(e.toString());
+            displayMsg("Enter Valid data");
         }
         text1.setText("");
         text2.setText("");
